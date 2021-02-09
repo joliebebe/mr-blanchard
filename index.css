@@ -1,0 +1,48 @@
+body{
+    background-image: url(arriere.png);
+    display: flexbox;
+    background-repeat: no-repeat;
+    background-size: 700px 900px;
+    background-position-x: center;
+    background-position-y: center;
+    padding-left: 500px;
+    padding-right: 5px;
+    margin-top: 2px;
+
+    height: 5px;
+   
+}
+img{
+    background-color: white;
+    height: 50px;
+}
+.carte {
+    background-color: rgb(247, 161, 1);
+    margin-left: 120px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 350px;
+    width: 600px;
+
+    
+
+}
+span{
+    font-style: italic;
+    font-family: lucida, serif;
+    font-size: 10px;
+}
+.ronde{
+    border-radius: 50%;
+    height: 100px;
+}
+.description{
+    font-style: italic;
+}
+.localisation{
+    font-style: oblique;
+}
+.nom{
+    font-weight: bolder;
+}
